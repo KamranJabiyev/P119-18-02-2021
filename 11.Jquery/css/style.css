@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rectangle{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    padding: 20px;
+    border: 1px solid;
+    margin: 20px;
+}
+
+.card-body{
+    display: none;
+}
+
+.card-header{
+    cursor: pointer;
+}
+
+.active{
+    display: block !important;
+}
